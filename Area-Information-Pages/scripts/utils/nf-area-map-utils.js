@@ -89,8 +89,8 @@ function write_THs_helper(THs, landmarks){
 function create_map(circle_coords){
   const nf_map = L.map('nf_area_map').setView([33.747601, -117.583927], 11);
   L.tileLayer(
-    `https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png`, {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    `https://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=52cedd129e12460f9eec01783207adc8`, {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">Thunderforest</a> contributors'
 }).addTo(nf_map);
 
   //Function that console logs the lat/long and zoom of location when clicked

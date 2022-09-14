@@ -6,6 +6,7 @@ export default class footerContainer extends HTMLElement{
       <div class="mainbodycontainer"><div class="footercol1">
         <h1>Updates:</h1>
         <ul>
+          <li> Misc. Updates to the website navigation bar </li>
           <li><a href="./index.html">Home Page Created 9/23/20</a> </li>
         </ul>
         <h1>In Progress:</h1>

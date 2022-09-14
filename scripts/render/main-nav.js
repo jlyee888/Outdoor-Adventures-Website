@@ -9,11 +9,11 @@ export default class mainNavBar extends HTMLElement{
           </li>
           <li class="not_implemented">
             <a href="#"
-              >Cucamonga Wilderness (To be implemented soon!)<i class="arrow down"></i
+              >Cucamonga Wilderness (Coming soon!)<i class="arrow down"></i
             ></a>
           </li>
           <li class="not_implemented">
-            <a href="#">Hike Log (To be implemented soon!)<i class="arrow down"></i></a>
+            <a href="#">Hike Blog (Coming soon!)<i class="arrow down"></i></a>
           </li>
         </ul>
       </nav>`

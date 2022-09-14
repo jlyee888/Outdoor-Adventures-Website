@@ -79,10 +79,10 @@ nav li {
   margin: 0;
   padding: 0;
   flex-grow: 1;
-  background: #222;
+  background: #f3ffbd;
 }
 nav li.implemented:hover {
-  background: #67aaf9;
+  background: #f3ffbd;
   /* Add dropdown stuff here */
 }
 nav li.not_implemented:hover {
@@ -401,19 +401,14 @@ footer a {
 }
 
 .quickfacts {
-  display: flex;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
   -moz-column-gap: 0.2rem;
        column-gap: 0.2rem;
+  /* grid-template-rows: ; */
   background: rgb(231, 231, 231);
   border-spacing: 0.2rem;
   padding: 0.5rem;
-}
-.quickfacts div {
-  flex: 1 1 0px;
-  margin: 0.1%;
-}
-.quickfacts ul {
-  list-style-position: inside;
 }
 .quickfacts h1 {
   font-size: 1.5rem;
@@ -426,17 +421,6 @@ footer a {
   width: 85%;
 }
 
-/*
-display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  //grid-template-columns: 1fr 1fr 1fr;//33% 33% 33%;
-  column-gap: 0.2rem;
-  // grid-template-rows: ; 
-  background: $light-grey;
-  border-spacing: 0.2rem;
-  padding: 0.5rem;
-  justify-items: stretch;
-  */
 .gallery {
   margin: 0.5rem 0rem;
   display: flex;
@@ -492,4 +476,4 @@ body {
 .site-container {
   background: rgb(255, 238, 238);
   box-sizing: border-box;
-}
+}/*# sourceMappingURL=style.css.map */
