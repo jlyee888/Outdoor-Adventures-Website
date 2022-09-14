@@ -46,9 +46,17 @@ nav {
     padding: 0;
     flex-grow: 1;
     background: $lighterblack;
-
+    }
+  }
+  li.implemented {
     &:hover {
-      background: $french-sky-blue;
+      background: $cream; // $french-sky-blue;
+      // https://css-tricks.com/the-sass-ampersand/
+      /* Add dropdown stuff here */
+  }
+  li.not_implemented {
+    &:hover {
+      background: #EE4B2B;
       /* Add dropdown stuff here */
     }
   }
